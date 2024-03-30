@@ -1,1 +1,6 @@
 React demo App to show main React concepts with examples and code
+
+Steps to get the App working:
+
+* npm install
+* npm run dev
