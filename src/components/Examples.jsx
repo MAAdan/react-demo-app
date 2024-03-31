@@ -16,8 +16,8 @@ export default function Examples() {
     return (
         //Forwarding props to wrapped elements.
         <Section title="Examples" id="examples">
+            {/* buttonsContainer is used to pass the element in which we want to wrap the jsx elements, for built-in elements strings are used like so buttonsContainer="menu" and for custom components a pointer to a different custom component like so "buttonsContainer={Section}". The "menu" value in this case is set as default value in the Tabs function */}
             <Tabs
-                buttonsContainer="menu"
                 buttons={
                 <>
                     {/* TabButton is a custom component that doesn't have the onClick prop, however it is being forwarded to the button component that contains this property */}
